@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         RadioGroup rgType = findViewById(R.id.rgType);
         TextView output = findViewById(R.id.lblOutput);
         Button button = (Button) findViewById(R.id.button);
-
+1
         // 監聽票數輸入變化
         ednTicket.addTextChangedListener(new TextWatcher() {
             @Override
